@@ -61,7 +61,7 @@ body{
   transform: rotateY(180deg);
 }
 
-.match{
+.match .front{
   border: 4px solid black;
   background-image: none !important;
   /* background: #fff; */
