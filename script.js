@@ -133,7 +133,7 @@ const resetGuess = ()=>{
 grid.addEventListener('click', function(event){
   let clicked = event.target
 
-  if(clicked.nodeName==='SECTION' || clicked===previousTarget){
+  if(clicked.nodeName==='SECTION' || clicked===previousTarget || clicked.parentNode.classList.contains('selected')){
     return 
   }
 
